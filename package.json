@@ -1,6 +1,6 @@
 {
   "name": "lightningcss-plugin-normalize-colors",
-  "version": "0.1.0",
+  "version": "0.2.0-dev",
   "description": "Lightning CSS plugin to normalize color functions for transforming them",
   "keywords": [
     "lightningcss-plugin"
