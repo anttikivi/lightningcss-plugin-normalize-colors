@@ -1,0 +1,41 @@
+{
+  "name": "lightningcss-plugin-normalize-colors",
+  "version": "0.1.0-dev",
+  "description": "Lightning CSS plugin to normalize color functions for transforming them",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anttikivi/lightningcss-plugin-normalize-colors.git"
+  },
+  "keywords": [
+    "lightningcss-plugin"
+  ],
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsup index.ts",
+    "lint": "tsc && eslint .",
+    "prepack": "rm -rf dist && npm run build",
+    "test": "vitest run"
+  },
+  "author": "Antti Kivi <antti@anttikivi.fi> (https://www.anttikivi.fi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anttikivi/lightningcss-plugin-normalize-colors/issues"
+  },
+  "homepage": "https://github.com/anttikivi/lightningcss-plugin-normalize-colors#readme",
+  "engines": {
+    "node": ">= 18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
