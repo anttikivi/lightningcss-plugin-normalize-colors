@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.1.0] - 2024-12-14
+
 - Initial release of the project with implementation to handle `oklch` functions
   in CSS variables.
 
